@@ -2,7 +2,7 @@ print("La ora de matematică Gigel este scos la tablă. Profesoara îi dictează
 a=int(input("Dati primul numar: ")) 
 b=int(input("Dati al doilea numar: ")) 
 c=int(input("DAti al treilea numar:")) 
-if ((a<a+b)and(b<c+a)and(c<a+b)): 
+if ((a<b+c)and(b<c+a)and(c<a+b)): 
     print("Da") 
 else: 
     print("Nu")
